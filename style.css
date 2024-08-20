@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.www {
+    display: grid;
+    grid-template-columns: 2fr 2fr  ;
+    width: 100%;
+    height: 100vh;
+    background-color: coral;
+    gap: 20px;
+    background-image: url(https://www.bmw-eminentcars.in/sites/default/files/sliders/i4.jpg);
+    background-repeat: no-repeat;
+}
+
+.www > div {
+    height: 300px;
+    background-color: crimson;
+}
+.www > .q {
+    width: 100%;
+background-repeat: no-repeat;
+    background-image:  url(https://www.bmwusa.com/content/dam/bmw/common/limited-edition/2024/soc25/m4-cs/BMW-LimitedEdition-M4-CSL-all.jpg.bmwimg.small.jpg);
+}
+
+.qw > div {
+    display: ;
+    grid-template-columns: 2fr 2fr  ;
+    width: 100%;
+    height: 100vh;
+    background-color: coral;
+    gap: 20px;
+    background-repeat: no-repeat;
+}
+.qw > div{
+    width: 100%;
+    height: 300px;
+    display: grid;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(https://www.carsome.my/news/wp-content/uploads/2023/07/BMW-M-Cars.jpg);
+}
